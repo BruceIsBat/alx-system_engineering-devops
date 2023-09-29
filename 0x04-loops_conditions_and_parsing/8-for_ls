@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-files=$(ls)
+files=$(ls -I '.*')
 for file in $files
 do
 	name=$(echo "$file" | cut -d '-' -f 2-)
