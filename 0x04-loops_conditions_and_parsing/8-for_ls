@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#This script  content of the current directory
 files=$(ls -I '.*')
 for file in $files
 do
