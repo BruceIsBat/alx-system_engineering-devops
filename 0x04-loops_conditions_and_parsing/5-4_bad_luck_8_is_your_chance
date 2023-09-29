@@ -1,16 +1,14 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times until the 8 and 4th
 count=1
-while [[ $count -lt 10 ]]
+while [[ $count -le 10 ]]
 do
 	if [[ $count -eq 4 ]]
 	then
 		echo "bad luck"
-		continue
 	elif [[ $count -eq 8 ]]
 	then
 		echo "good luck"
-		continue
 	else
 		echo "Best School"
 	fi
