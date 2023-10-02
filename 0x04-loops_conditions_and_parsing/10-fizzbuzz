@@ -2,16 +2,16 @@
 #This file print fizz buzz and fizzbuzz
 for num in {1..100}
 do
-	if [[ $(expr $num % 3) -eq 0 ]] && [[ $(expr $num % 5) -eq 0 ]]
-	then
-		echo "Fizz"
-	elif [[ $(expr $num % 5) -eq 0 ]]
-	then
-		echo "Buzz"
-	elif [[ $(expr $num % 3) -eq 0 ]]
-
+	if [[ $(( num % 3 )) -eq 0 ]] && [[ $(( num % 5 )) -eq 0 ]]
 	then
 		echo "FizzBuzz"
+	elif [[ $(( num % 5 )) -eq 0 ]]
+	then
+		echo "Buzz"
+	elif [[ $(( num % 3 )) -eq 0 ]]
+
+	then
+		echo "Fizz"
 	else
 		echo $num
 	fi
