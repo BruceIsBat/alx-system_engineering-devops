@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # a Bash script that configures an Ubuntu server
-echo "127.0.0.1		localhost" | sudo tee -a /etc/hosts
-echo "8.8.8.8		facebook.com" | sudo tee -a /etc/hosts
+echo "127.0.0.1		localhost"
+echo "8.8.8.8		facebook.com"
