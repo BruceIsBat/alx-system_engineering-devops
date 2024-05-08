@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# client configuration file
+
+Host *
+    PasswordAuthentication no
+
+Host your_server_ip
+    IdentityFile ~/.ssh/school
+
