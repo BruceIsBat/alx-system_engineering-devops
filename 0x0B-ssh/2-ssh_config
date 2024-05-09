@@ -4,6 +4,6 @@
 Host *
     PasswordAuthentication no
 
-Host your_server_ip
+Host 54.167.170.180
     IdentityFile ~/.ssh/school
 
